@@ -39,6 +39,28 @@ a:hover {
   font-size: 1.3em;
 }
 
+[data-title]:hover:after {
+  visibility: visible;
+}
+
+[data-title]:after {
+  content: attr(data-title);
+  background-color: transparent;
+  color: #FF9234;
+  font-family: 'Source Serif Pro', serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 0.8em;
+  position: absolute;
+  visibility: hidden;
+  bottom: -1.6em;
+  left: 5%;
+}
+
+[data-title] {
+    position: relative;
+}
+
 footer {
   margin-top: 5%;
   padding: 0;
@@ -149,6 +171,13 @@ h4 {
   padding: 0;
 }
 
+.ornament3 {
+  width: 13%;
+  margin-left: 47%;
+  padding: 0;
+}
+
+
 .follow {
   padding: 0;
   margin-top: 1%;
@@ -198,6 +227,12 @@ h4 {
   font-style: italic;
   font-weight: 600;
   font-size: 1em;
+}
+
+.classes {
+  margin-top: 5%;
+  margin-left: 42%;
+  margin-right: 20%;
 }
 
 /* TABLET VIEW */
