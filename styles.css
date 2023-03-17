@@ -1,5 +1,5 @@
 html {
-   background: url('images/studio3.jpg') no-repeat center center fixed;
+   background: url('images/studio4a.jpg') no-repeat center center fixed;
    background-size: cover;
    height: 100%;
    overflow: hidden;
@@ -15,7 +15,7 @@ body {
     justify-content:space-between;
 }
 
-/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////// */
 menu {
      list-style-type: none;
      display: flex;
@@ -27,12 +27,14 @@ menu {
 }
 
 i {
-  color: #FF9234;
+  /* color: #FF9234; */
+  color: #FF9300;
   font-size: 1.9em;
 }
 
 a {
-  color: #FF9234;
+  /* color: #FF9234; */
+   color: #FF9300;
 }
 
 a:hover {
@@ -53,22 +55,32 @@ a:hover {
   font-size: 0.8em;
   position: absolute;
   visibility: hidden;
-  bottom: -1.6em;
-  left: 5%;
+  top: -2.6em;
+  right: 5%;
 }
 
 [data-title] {
     position: relative;
 }
 
+
 footer {
   margin-top: 5%;
-  padding: 0;
   width: 100%;
   text-align: center;
   font-size: 1em;
   font-weight: bold;
   text-shadow: 1px 1px #7895B2;
+}
+
+.socialfooter {
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2.2em;
+  padding-bottom: 3px;
+  scale: 0.9;
 }
 
 #vibes {
@@ -81,7 +93,7 @@ footer {
   font-family: 'Great Vibes', cursive;
   font-weight: bold;
 }
-/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 h1{
   padding-top: 0;
@@ -99,14 +111,14 @@ h3 {
   font-weight: 700;
 }
 
-#current {
-  font-size: 1.1em;
-}
-
 #min {
   font-size: 1.5em;
   margin-left: 7px;
   margin-right: 7px;
+}
+
+#current {
+  font-size: 1.1em;
 }
 
 h4 {
@@ -120,7 +132,7 @@ h4 {
 
 .pic {
   border-radius: 50%;
-  width: 21%;
+  width: 22%;
   float:left;
   margin-bottom: 26%;
   background-color: rgba(255, 255, 255, 0.7);
@@ -128,7 +140,7 @@ h4 {
 }
 
 .pic2 {
-  width: 22%;
+  width: 20%;
   float:left;
   margin-right: 18%;
 }
@@ -136,7 +148,7 @@ h4 {
 .about {
   margin-top: 3.5%;
   text-align: left;
-  margin-left: 13%;
+  margin-left: 17%;
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -149,7 +161,7 @@ h4 {
   padding-right: 3%;
   padding-top: 1%;
   padding-bottom: 1%;
-  width: 40%;
+  width: 43%;
 }
 
 #contact {
@@ -177,7 +189,6 @@ h4 {
   padding: 0;
 }
 
-
 .follow {
   padding: 0;
   margin-top: 1%;
@@ -191,7 +202,7 @@ h4 {
 
 
 .testimonials {
-  margin: 0% 0% 0% 5%;
+  margin: 0% 0% 0% 3%;
   padding: 0%;
   display: inline-flex;
   justify-content: space-around;
@@ -202,7 +213,8 @@ h4 {
   display: inline-block;
   position: relative;
   border-radius: 8%;
-  background-color: rgb(255, 146, 52, 0.3);
+  background-color: rgb(255, 146, 52, 0.23);
+  /* background-color: rgb(255, 147, 1, 0.2); */
   padding-top: 1.5%;
   padding-left: 1.5%;
   padding-right: 1.5%;
@@ -226,13 +238,7 @@ h4 {
   font-family: serif;
   font-style: italic;
   font-weight: 600;
-  font-size: 1em;
-}
-
-.classes {
-  margin-top: 5%;
-  margin-left: 42%;
-  margin-right: 20%;
+  /* font-size: 1em; */
 }
 
 /* TABLET VIEW */
@@ -298,7 +304,7 @@ h4 {
      margin-right: auto;
    }
 
-.ornament1, .ornament2,.ornament3 {
+.ornament1, .ornament2, .ornament3 {
   visibility: collapse;
 }
 
@@ -347,7 +353,7 @@ h4 {
 @media only screen and (max-width: 600px) {
 
   menu {
-    padding-top: 7%;
+    padding-top: 6.5%;
     padding-left: 17%;
     gap: 2em;
     justify-content:center;
@@ -377,7 +383,7 @@ h4 {
    }
 
    .about {
-     margin-top: 22%;
+     margin-top: 20%;
      align-content: center;
      text-align: center;
      margin-right: auto;
@@ -392,10 +398,10 @@ h4 {
    }
 
    .pic {
-     width: 44%;
-     padding: 3%;
+     width: 45%;
+     padding: 3.5%;
      margin-bottom: 7%;
-     margin-left: 25%;
+     margin-left: 23.5%;
      margin-right: auto;
    }
 
@@ -445,7 +451,9 @@ h4 {
   padding-left: 4%;
   padding-right: 4%;
   padding-bottom: 0%;
-  font-size: 0.7em;
+  border-radius: 6%;
+  background-color: rgb(255, 146, 52, 0.2);
+  font-size: 0.8em;
 }
 
 }
