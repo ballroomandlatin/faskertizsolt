@@ -23,7 +23,7 @@ menu {
      padding-top: 4%;
      padding-right: 16%;
      margin-bottom: 0;
-     gap: 2.2em;
+     gap: 3em;
 }
 
 i {
@@ -357,7 +357,7 @@ h4 {
   menu {
     padding-top: 6.5%;
     padding-left: 17%;
-    gap: 2em;
+    gap: 2.5em;
     justify-content:center;
   }
 
